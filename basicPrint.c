@@ -15,4 +15,6 @@ void main()
 	printf("What is your age?: ");
 	scanf("%d", &age);
 	printf("Hey %s, you are young, you are just %d years old", fname, age);
+	printf("What musical instrument do you play?: ");
+	scanf("%s", musicInstrument);
 }

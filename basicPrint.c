@@ -5,7 +5,7 @@ void main()
 	char name[20], lname[20];
 	int age;
 	char musicInstrument[15], mband[20];
-	// Welcome message
+	// Getting info from customer
 	printf("Welcome to the test program!\n");
 	printf("Enter your name: ");
 	scanf("%s", fname);
@@ -20,4 +20,7 @@ void main()
 	scanf("%s", musicInstrument);
 	printf("What is your favorite music band?: ");
 	scanf("%s", mband);
+
+	//Giving you your lucky number
+	
 }
